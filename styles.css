@@ -11,8 +11,8 @@ src: url('/Format_1452.woff') format('woff');
 
 
 @font-face {
-font-family: 'Millimetre';
-src: url('/Millimetre-Regular_web.woff') format('woff');
+font-family: 'VG';
+src: url('/VG5000-Regular_web.woff') format('woff');
   
 }
 
@@ -20,10 +20,11 @@ src: url('/Millimetre-Regular_web.woff') format('woff');
 
 
 
-body {
+h1 {
 
 
   font-size: 40px;
-   background-color: #f4f4f4;
+  background-color: #f4f4f4;
+  font-family: 'VG';
   
 }
