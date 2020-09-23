@@ -18,7 +18,9 @@ src: url('/VG5000-Regular_web.woff') format('woff');
 
 
 
-
+body {
+    background-color: white;
+}
 
 h1 {
 
