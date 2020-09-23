@@ -28,3 +28,9 @@ h1 {
   font-family: VG;
   
 }
+
+a:link {
+  color: blue;
+  text-decoration: underline;
+  background-color: yellow;
+}
