@@ -23,8 +23,8 @@ src: url('/VG5000-Regular_web.woff') format('woff');
 h1 {
 
 
-  font-size: 40px;
+  font-size: 30px;
   background-color: #f4f4f4;
-  font-family: 'VG';
+  font-family: VG;
   
 }
