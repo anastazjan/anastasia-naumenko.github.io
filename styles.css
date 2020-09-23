@@ -31,8 +31,10 @@ h1 {
   
 }
 
-a:link {
-  color: blue;
+#link1 {
+  color: #1a1aff;
   text-decoration: underline;
-  background-color: yellow;
 }
+  
+  
+
