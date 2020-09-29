@@ -1,41 +1,204 @@
-@font-face {
-font-family: 'CirrusCumulus';
-src: url('/CirrusCumulus.woff') format('woff');
-}
+@import url("https://fonts.googleapis.com/css?family=IBM Plex Mono");
 
 @font-face {
-font-family: 'Format';
-src: url('/Format_1452.woff') format('woff');
-  
+  font-family: "VG5000";
+  src: url("assets/VG5000-Regular_web.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
-
-
-@font-face {
-font-family: 'VG';
-src: url('/VG5000-Regular_web.woff') format('woff');
-  
-}
-
-
 
 body {
-    background-color: white;
+  background-color: white;
+  font-family: "IBM Plex Mono";
+  z-index: 1;
+ 
 }
 
 h1 {
-
-
-  font-size: 35px;
+  font-size: 40px;
   background-color: white;
-  font-family: VG;
-  
+  font-family: "IBM Plex Mono";
+  z-index: 1;
+  padding: 1%;
+  overflow: scroll;
+}
+
+.window-typo {
+  font-family: "IBM Plex Mono";
+  font-size: 25px;
+}
+
+.link {
+  color: #1a1aff;
+  text-decoration: underline;
+  background-color: red;
+}
+
+.link2 {
+  color: #6699ff;
+  text-decoration: underline;
+  background-color: yellow;
 }
 
 #link1 {
   color: #1a1aff;
   text-decoration: underline;
-  transform: rotate(20deg);
+  background-color: red;
 }
+
+a:link {
+  color: #1a1aff;
+  text-decoration: underline;
+  background-color: red;
+}
+
+a:visited {
+  color: #ffcccc;
+  text-decoration: underline;
+  background-color: red;
+}
+
+#main {
+  
+}
+
+#link2 {
+  color: #1a1aff;
+  text-decoration: underline;
+}
+
+#add-window-1 {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  width: 40%;
+  height: fit-content(10%);
+  max-height: 60%;
+  position: fixed;
+  left: 25%;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+  overflow: scroll;
+  padding: 1%;
+  border-style: solid;
+  border-color: #0058ee;
+  border-radius: 5px;
+  border-width: 30px 2px 2px 2px;
+}
+
+#add-window-2 {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  width: 40%;
+  height: fit-content(10%);
+   max-height: 60%;
+  position: fixed;
+  left: 25%;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+  overflow: scroll;
+  padding: 1%;
+  border-style: solid;
+  border-color: #0058ee;
+  border-radius: 5px;
+  border-width: 30px 2px 2px 2px;
+}
+
+#add-window-3 {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  width: 40%;
+  height: fit-content(10%);
+   max-height: 60%;
+  position: fixed;
+  left: 25%;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+  overflow: scroll;
+  padding: 1%;
+  border-style: solid;
+  border-color: #0058ee;
+  border-radius: 5px;
+  border-width: 30px 2px 2px 2px;
+}
+
+#add-window-4 {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  width: 40%;
+  height: fit-content(10%);
+   max-height: 60%;
+  position: fixed;
+  left: 25%;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+  overflow: scroll;
+  padding: 1%;
+  border-style: solid;
+  border-color: #0058ee;
+  border-radius: 5px;
+  border-width: 30px 2px 2px 2px;
+}
+
+#add-window-5 {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  width: 40%;
+  height: fit-content(10%);
+   max-height: 60%;
+  position: fixed;
+  left: 25%;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+  overflow: scroll;
+  padding: 1%;
+  border-style: solid;
+  border-color: #0058ee;
+  border-radius: 5px;
+  border-width: 30px 2px 2px 2px;
+}
+
+#add-window-6 {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  width: 40%;
+  height: fit-content(10%);
+   max-height: 60%;
+  position: fixed;
+  left: 25%;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 10;
+  overflow: scroll;
+  padding: 1%;
+  border-style: solid;
+  border-color: #0058ee;
+  border-radius: 5px;
+  border-width: 30px 2px 2px 2px;
+}
+
   
   
 
